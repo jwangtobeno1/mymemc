@@ -80,8 +80,14 @@ This controller implements the read, write and refresh control of mem
 
 ## Timing
 
+Write:
+
 ![](./doc/img/mc%20top%20write%20timing.png)
 
+Read:
+
 ![](./doc/img/mc%20top%20read%20timing.png)
+
+Refresh:
 
 ![](./doc/img/mc%20top%20refresh%20timing.png)

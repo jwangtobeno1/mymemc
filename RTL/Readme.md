@@ -65,7 +65,7 @@
 
 Array FSM状态转移：
 
-![](../doc/img/array_ctrl.png)
+![](../doc/img/fsm_array.png)
 
 - `array_fsm`包含了`IDLE`，`ARRAY_WR`，`ARRAY_RD`，`ARRAY_RFSH`四个状态，其中：
 - `wr_en`为跳转到写的条件`en_asyn2&&mc_frame_valid&&rw_flag&&sof`，其中`en_asyn2`为配置寄存器的`en`信号同步之后的结果 
